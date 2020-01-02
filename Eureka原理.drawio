@@ -1,1 +1,77 @@
-<mxfile host="www.draw.io" modified="2020-01-02T10:06:34.303Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" version="12.4.8" etag="9I0NfsjRrHTc3q_yiqtv" type="github"><diagram id="W6PaDNdtsokctzcNI0Bm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-02T10:21:39.050Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="68xoZI1zx0YvGtDy2Yob" version="12.4.8" type="github">
+  <diagram id="W6PaDNdtsokctzcNI0Bm" name="第 1 页">
+    <mxGraphModel dx="1125" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="M-f30VwekV8WggIKCB0C-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M-f30VwekV8WggIKCB0C-1" target="M-f30VwekV8WggIKCB0C-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="M-f30VwekV8WggIKCB0C-1" value="eureka&lt;br&gt;192.168.0.1:9090" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="40" width="210" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="M-f30VwekV8WggIKCB0C-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M-f30VwekV8WggIKCB0C-2" target="M-f30VwekV8WggIKCB0C-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="230"/>
+              <mxPoint x="270" y="95"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-f30VwekV8WggIKCB0C-2" value="生产者1&lt;br&gt;192.168.0.3:8080&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="71" y="190" width="129" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="M-f30VwekV8WggIKCB0C-4" value="注册服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="40" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="M-f30VwekV8WggIKCB0C-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="330" as="sourcePoint"/>
+            <mxPoint x="419" y="80" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="40" y="330"/>
+              <mxPoint x="40" y="80"/>
+              <mxPoint x="419" y="80"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-f30VwekV8WggIKCB0C-5" value="生产者2&lt;br&gt;192.168.0.4:8080" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="71" y="290" width="129" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="M-f30VwekV8WggIKCB0C-9" value="注册服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="150" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="M-f30VwekV8WggIKCB0C-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.008;exitY=0.394;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="M-f30VwekV8WggIKCB0C-11" target="M-f30VwekV8WggIKCB0C-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="M-f30VwekV8WggIKCB0C-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M-f30VwekV8WggIKCB0C-11" target="M-f30VwekV8WggIKCB0C-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="M-f30VwekV8WggIKCB0C-11" value="消费者1&lt;br&gt;192.168.0.5:8080" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="185" width="130" height="165" as="geometry"/>
+        </mxCell>
+        <mxCell id="M-f30VwekV8WggIKCB0C-13" value="自动抓取服务对应机器列表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="60" width="160" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="M-f30VwekV8WggIKCB0C-15" value="调用服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="M-f30VwekV8WggIKCB0C-16" value="存到本地" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="85" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="M-f30VwekV8WggIKCB0C-18" value="调用服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="310" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="M-f30VwekV8WggIKCB0C-20" value="注册服务：每隔30s发送一次心跳，如果注册中心超过90s没收到该机器的心跳，则认为其已经停止服务。&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="403" width="570" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="M-f30VwekV8WggIKCB0C-21" value="消费者每30s会到注册中心拉取服务提供者的机器列表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="440" width="300" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="M-f30VwekV8WggIKCB0C-23" value="注册中心自我保护模式：一段时间内，收到心跳率低于85%，则注册中心认为是自己的网络出了问题，此时不会剔除任何一个服务的注册。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="480" width="750" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
